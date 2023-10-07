@@ -1,0 +1,120 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(150, 175, 134);
+    
+}
+
+html{
+            position: relative;
+}
+
+#sx{
+            flex:1;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+}
+
+#centro{
+            flex:4;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+}
+
+#dx{
+            flex:2;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+}
+
+
+a:link, a:visited{
+        
+    background-color: rgba(5, 112, 212, 0.856);
+    color: white;
+    padding:14px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover, a:active{
+    
+    background-color: rgba(3, 14, 161, 0.856);
+    color: white;
+    padding:14px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+table{
+    
+    margin-top: 30px;
+
+    border:2px solid green;
+    width:100%;
+
+}
+
+th,td{
+        border:1px solid green;
+        background-color: white;
+
+        font-size:20px;
+        text-align: center;
+}
+
+
+button{
+    background-color: rgba(212, 88, 5, 0.856);
+    color: white;
+    padding:14px 20px;
+    
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    text-decoration: none;
+    text-align: center;     
+}
+
+button:hover{
+    background-color: rgba(161, 48, 3, 0.856);
+    color: white;
+    padding:14px 20px;
+    
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    text-decoration: none;
+    text-align: center;   
+}
+
+
+button:disabled{
+    background-color: rgba(161, 48, 3, 0.856);
+    opacity:0.4;
+    cursor:not-allowed;
+    color: white;
+    padding:14px 20px;
+    
+    border:none;
+    border-radius: 4px;
+    
+    text-decoration: none;
+    text-align: center;   
+}

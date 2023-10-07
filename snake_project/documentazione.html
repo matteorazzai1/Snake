@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>Snake</title>
+    <link rel="icon" type="image/x-icon" href="../../img/logo_snake.png">
+    
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+        <h1>Documentazione</h1>
+        Il sito proposto permette di giocare al classico gioco Snake<br>
+        La pagina iniziale è index.html, da cui un utente può accedere attraverso il link per il login oppure
+        registrarsi se è un nuovo utente.<br>
+        <h3>index.html</h3>
+        In index.html ci sono due link, il primo porta alla pagina per accedere al sito come utente già registrato,
+        il secondo alla pagina per la registrazione<br>
+        <h3>login.php</h3>
+        In login.php è presente un form con cui l'utente deve accedere inserendo username e password corretti.<br>
+        Sotto al form è presente un link attraverso il quale è possibile andare alla pagina di registrazione.<br>
+        <h3>registrazione.php</h3>
+        In registrazione.login l'utente può registrarsi, la password viene accettata solo se è presente una lettera
+        maiuscola, un numero e un carattere speciale(!,@,#,$,%,^,&,?,/)<br>
+        <h3>gioco.php</h3>
+        Una volta eseguito il login, ci troviamo nella pagina dove effettivamente si può giocare.<br>
+        A sinistra è visibile il nome dell'utente, il punteggio della partita in corso e il tasto da premere 
+        per iniziare la partita.<br>
+        Al centro è presente il campo da gioco.<br>
+        Una volta premuto il bottone la partita comincia, il serpente compare da uno dei quattro lati del campo
+        e la mela compare in un punto casuale della mappa. Il serpente cambia direzione quando viene premuto uno dei
+        tasti direzionali.<br>
+        Il punteggio viene incrementato ogni volta che la mela viene mangiata dal serpente, ogni 4 punti comparirà
+        un muretto casuale sia in posizione che in struttura, grande al massimo 4 "mattoni".<br>
+        Quando l'utente arriva a 10 punti compare un serpente nemico che si muoverà casualmente.<br>
+        Il giocatore perde se il serpente si morde, se prende un muretto o se si scontra con il serpente nemico.<br>
+        Quando avviene una di queste tre ipotesi, vengono stampate le prime 10 posizioni della classifica generale
+        sul lato destro della pagina, dove è possibile anche disconnettersi attraverso un tasto.<br>
+        <h3>admin.php</h3>
+        Nel caso l'utente sia l'admin, esso da tale pagina avrà una tabella con tutti gli utenti e la possibilità 
+        attraverso dei bottoni di bloccare o sbloccare gli altri utenti. <br>
+        Gli utenti bloccati non potranno giocare fino a che l'admin non li riammetterà.<br>
+
+</body>
+
+
+</html>
